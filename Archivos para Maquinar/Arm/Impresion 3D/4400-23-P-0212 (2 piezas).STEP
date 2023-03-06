@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('4400-23-P-0212 (2 piezas).STEP',
+    '2023-03-01T06:35:28',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2022',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#2 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #11, .NOT_KNOWN. ) ;
+#3 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #6 ) ;
+#4 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #8 ) ;
+#5 = PRODUCT_CONTEXT ( 'NONE', #1, 'mechanical' ) ;
+#6 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #2, #7 ) ;
+#7 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #8, 'design' ) ;
+#8 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#9 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #1 ) ;
+#10 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #11 ) ) ;
+#11 = PRODUCT ( '4400-23-P-0212 (2 piezas)', '4400-23-P-0212 (2 piezas)', '', ( #5 ) ) ;
+ENDSEC;
+END-ISO-10303-21;
