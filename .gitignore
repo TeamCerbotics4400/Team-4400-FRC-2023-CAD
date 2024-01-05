@@ -1,0 +1,7 @@
+# For CADs designed using SolidWorks
+
+# Temporary files
+~$*
+
+# AUTO-RECOVERY files
+*.swar
